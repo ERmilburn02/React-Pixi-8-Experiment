@@ -36,6 +36,7 @@ function App() {
         <container x={3}>
           <text text="This is text" />
           <pixiText text="This is pixiText" y={24} />
+          <pixiText text="Is HMR working now??" y={48} />
         </container>
 
         <container x={200}>

@@ -5,12 +5,12 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   plugins: [
     react(),
-    {
-      name: "full-reload",
-      handleHotUpdate({ server }) {
-        server.ws.send({ type: "full-reload" });
-        return [];
-      },
-    },
+    // {
+    //   name: "full-reload",
+    //   handleHotUpdate({ server }) {
+    //     server.ws.send({ type: "full-reload" });
+    //     return [];
+    //   },
+    // },
   ],
 });
