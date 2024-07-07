@@ -24,8 +24,6 @@ function App() {
     if (spriteRef.current) {
       spriteRef.current.rotation += 0.001 * ticker.deltaMS;
     }
-
-    console.log(ticker);
   });
 
   return (
